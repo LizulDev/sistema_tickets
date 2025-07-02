@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db = 'atividade_final_venda_tickets';
-$user = 'root';
-$pass = 'root';
+$user = '----';
+$pass = '----';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
